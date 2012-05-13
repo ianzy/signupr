@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  guest_event_id: 1
+  log_type: MyString
+  log_details: MyText
+
+two:
+  guest_event_id: 1
+  log_type: MyString
+  log_details: MyText

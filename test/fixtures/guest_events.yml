@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  guest_id: 1
+  event_id: 1
+  type: 
+  is_signed_up: false
+  is_checked_in: false
+  is_gift_picked: false
+
+two:
+  guest_id: 1
+  event_id: 1
+  type: 
+  is_signed_up: false
+  is_checked_in: false
+  is_gift_picked: false
