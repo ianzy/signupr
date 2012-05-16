@@ -22,7 +22,7 @@ class Api::BaseController < ApplicationController
   def index
     respond_to do |format|
       format.json do
-        render :json => { :data => collection, :paging => pagination_data(collection) }
+        render :json => { :data => collection, :paging => pagination_data(collection) }, :callback => params[:callback]
       end
     end
   end
@@ -30,7 +30,7 @@ class Api::BaseController < ApplicationController
   def show
     respond_to do |format|
       format.json do
-        render :json => { :data => resource, :paging => nil }
+        render :json => { :data => resource, :paging => nil }, :callback => params[:callback]
       end
     end
   end
