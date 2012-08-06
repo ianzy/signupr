@@ -13,6 +13,7 @@ class GuestEvent < ActiveRecord::Base
         :first_name => self.guest.first_name,
         :last_name  => self.guest.last_name,
         :phone => self.guest.phone,
+        :email => self.guest.email,
         :first_name_cn =>  self.guest.first_name_cn,
         :last_name_cn  =>  self.guest.last_name_cn,
         :note =>  self.guest.note,
